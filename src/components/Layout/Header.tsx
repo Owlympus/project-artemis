@@ -1,4 +1,4 @@
-import {Link, NavLink} from "react-router";
+import {NavLink} from "react-router";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faAt, faHome, faPaw} from "@fortawesome/free-solid-svg-icons";
 import {cn} from "../../utils/cn";
@@ -22,7 +22,7 @@ const Header = () => (
           </NavLink>
         </li>
         <li>
-          <img src="/src/assets/logo.jpg" alt="La Nounou des Poilus logo" className={"h-20 w-20 object-cover rounded-full"}/>
+          <img src="/logo.jpg" alt="La Nounou des Poilus logo" className={"h-20 w-20 object-cover rounded-full"}/>
         </li>
         <li>
           <NavLink
